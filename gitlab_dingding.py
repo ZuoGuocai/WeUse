@@ -20,7 +20,7 @@ def send_dingtalk_message(sendtext):
                      " *** \n\n" +
                      sendtext +
                      " *** \n\n" +
-                    "<font color=#FF0000 size=7  face='黑体'>备份请登录查看: https://xxx</font> \n\n"
+                    "<font color=#FF0000 size=7  face='黑体'>备份请登录查看: https://mygitlab.com</font> \n\n"
         }
     }
     resp = requests.post(
